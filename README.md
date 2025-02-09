@@ -3,7 +3,7 @@
 A Retrieval-Augmented Generation (RAG) chatbot application built with Flask, which leverages LM-Studio's REST API for embeddings and model operations. 
 The user interface is implemented in HTML/CSS located in the `templates/` directory and assets in the `static/` directory. This project can be easily deployed via Docker and is available on Dockerhub.
 
-## Table of Contents
+### Table of Contents
 
 - [Features](#features)
 - [Prerequisites](#prerequisites)
@@ -13,7 +13,7 @@ The user interface is implemented in HTML/CSS located in the `templates/` direct
 - [Folder Structure](#folder-structure)
 - [License](#license)
 
-## Features
+### Features
 
 - **Flask REST API:** Serves as the backend for processing user requests.
 - **HTML/CSS Frontend:** A clean interface built with HTML/CSS.
@@ -30,20 +30,20 @@ The user interface is implemented in HTML/CSS located in the `templates/` direct
 - **Git:** For version control.
 - **Docker:** (Optional) For containerized deployment.
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 ```
 git clone https://github.com/MichaelMA85/chatbot-RAGapp.git
 cd chatbot-RAGapp
 ```
-### 2. Set Up Virtual Environment & Install Dependencies
+## 2. Set Up Virtual Environment & Install Dependencies
 
-## Create a virtual environment (recommended):
+### Create a virtual environment (recommended):
 
 ```
 python -m venv venv
 ```
-## Activate the virtual environment:
+### Activate the virtual environment:
 **On Linux/macOS:**
 ```
 source venv/bin/activate
@@ -52,13 +52,13 @@ source venv/bin/activate
 ```
 venv/bin/activate
 ```
-## Install the required dependencies:
+### Install the required dependencies:
 ```
 pip install -r requirements.txt
 ```
-### Usage
-## Running RAG-ChatBot Application Locally
-# Start the Flask server by running:
+## Usage
+### Running RAG-ChatBot Application Locally
+**Start the Flask server by running:**
 
 ```
 python app.py
