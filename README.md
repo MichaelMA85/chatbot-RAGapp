@@ -1,71 +1,80 @@
+# RAG-CHATBOT-APP
 
-# ChatBot
+A Retrieval-Augmented Generation (RAG) chatbot application built with Flask, which leverages LM-Studio's REST API for embeddings and model operations. 
+The user interface is implemented in HTML/CSS located in the `templates/` directory and assets in the `static/` directory. This project can be easily deployed via Docker and is available on Dockerhub.
+
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Docker Deployment](#docker-deployment)
+- [Folder Structure](#folder-structure)
+- [License](#license)
+
+## Features
+
+- **Flask REST API:** Serves as the backend for processing user requests.
+- **HTML/CSS Frontend:** A clean interface built with HTML/CSS.
+- **LM-Studio Integration:** Uses LM-Studio's REST API for embeddings and model inference.
+- **Docker Containerization:** Deploy the application in a containerized environment.
+- **Testing:** Unit tests are provided under the `tests/` directory.
 
 ## Installation & Setup
 
-[Install Python] https://www.python.org/downloads/
+### Prerequisites
 
-[Install pip]
+- **Python 3.9+** [Install Python] https://www.python.org/downloads/
+- **LM-Studio:**[LM-Studio](https://lmstudio.ai/) Ensure LM-Studio is running as a REST API.
+- **Git:** For version control.
+- **Docker:** (Optional) For containerized deployment.
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/MichaelMA85/chatbot-RAGapp.git
+cd chatbot-RAGapp
+
+### 2. Set Up Virtual Environment & Install Dependencies
+
+## Create a virtual environment (recommended):
+
+```bash
+python -m venv venv
+
+## Activate the virtual environment:
+**On Linux/macOS:**
 ```
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+source venv/bin/activate
+**On Windows:**
 ```
+venv/bin/activate
 
-```
-python3 get-pip.py
-```
-
-Ensure pip is installed by running the following command
-
-```
-pip --version
-```
-
-If you have Python & pip installed then check their version in the terminal or command line tools
-
-```
-python3 --version
-```
-
-```
-pip --version
-```
-
-## Installing Flask
-
-In your terminal run the requirements.txt file using this pip
-
+## Install the required dependencies:
 ```
 pip install -r requirements.txt
-```
 
-## Running ChatBot Application in Terminal
-
-```
-cd into your directory
-```
+### Usage
+## Running RAG-ChatBot Application Locally
+# Start the Flask server by running:
 
 ```
-python3 app.py
+python app.py
 ```
+Open your browser and navigate to http://127.0.0.1:5000 to interact with the chatbot.
 
-## What you will create
 
-In this tutorial, I will guide you through the process of building a chatbot that can carry out conversations with users using natural language processing.
-
-To start, we will be using Microsoft DialoGPT, a pre-trained language model that can generate human-like responses to given prompts. We will be integrating DialoGPT with Flask, a popular Python web framework, to create a web application that can communicate with users via a chat interface.
-
-For the frontend of our application, we will be using HTML, CSS, and JavaScript to create a visually appealing and interactive chat interface. Additionally, we will be using jQuery to handle the HTTP requests that are made to the backend server.
-
-Throughout the tutorial, I will provide step-by-step instructions on how to set up your development environment, install the necessary dependencies, and create the required files and code for the application. I will also explain how to train and fine-tune the DialoGPT model to improve the accuracy of its responses.
-
-By the end of this tutorial, you will have a fully functional chatbot that can engage in conversations with users, and you will have gained valuable experience in using Microsoft DialoGPT, Flask, and web development technologies such as HTML, CSS, and JavaScript.
 
 # ChatBot Link
 
-The Chatbot is constructed using the deepseek-r1-distill-qwen-7b.
+The RAG-Chatbot is constructed using the deepseek-r1-distill-qwen-7b.
 
 ```
 https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
 ```
+The Embedding-Model is constructed using the jina-embeddings
 
+```
+https://huggingface.co/jinaai/jina-embeddings-v2-base-en
+```
