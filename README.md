@@ -25,36 +25,37 @@ The user interface is implemented in HTML/CSS located in the `templates/` direct
 
 ### Prerequisites
 
-- **Python 3.9+** [Install Python] https://www.python.org/downloads/
+- **Python 3.9+** [Install Python] (https://www.python.org/downloads/)
 - **LM-Studio:**[LM-Studio](https://lmstudio.ai/) Ensure LM-Studio is running as a REST API.
 - **Git:** For version control.
 - **Docker:** (Optional) For containerized deployment.
 
 ### 1. Clone the Repository
 
-```bash
+```
 git clone https://github.com/MichaelMA85/chatbot-RAGapp.git
 cd chatbot-RAGapp
-
+```
 ### 2. Set Up Virtual Environment & Install Dependencies
 
 ## Create a virtual environment (recommended):
 
-```bash
+```
 python -m venv venv
-
+```
 ## Activate the virtual environment:
 **On Linux/macOS:**
 ```
 source venv/bin/activate
+```
 **On Windows:**
 ```
 venv/bin/activate
-
+```
 ## Install the required dependencies:
 ```
 pip install -r requirements.txt
-
+```
 ### Usage
 ## Running RAG-ChatBot Application Locally
 # Start the Flask server by running:
@@ -63,8 +64,6 @@ pip install -r requirements.txt
 python app.py
 ```
 Open your browser and navigate to http://127.0.0.1:5000 to interact with the chatbot.
-
-
 
 # ChatBot Link
 
