@@ -110,16 +110,29 @@ pip install -r requirements.txt
 
 ## Folder Structure
 
-chatbot-RAGapp/
-├── html/               # chat.html for the frontend
-├── static/             # Static assets (CSS, JS, etc.)
-├── tests/              # Unit tests
-├── app.py              # Flask application entry point
-├── utils.py            # Utilities
-├── config.py           # Configuration settings
-├── requirements.txt    # Python dependencies
-├── Dockerfile          # Docker configuration
-└── README.md           # Project documentation
+```
+"chatbot-RAGapp/"
+├── Logo/                      # Directory for logos and images
+├── static/                    # Static assets (CSS, JS, images)
+│   ├── chatbot.png            # Chatbot logo
+│   ├── favicon.ico            # Favicon for the website
+│   ├── style.css              # Main stylesheet
+├── html/                      # Frontend HTML file
+│   ├── chat.html              # Main chat interface
+├── tests/                     # Unit tests
+│   ├── test_app.py            # Tests for the Flask app
+│   ├── test_utils.py          # Tests for utility functions
+├── app.py                     # Flask application entry point
+├── config.py                  # Configuration settings
+├── Dockerfile                 # Docker configuration
+├── embeddings.pt              # Embeddings file for model
+├── human-nutrition-text.pdf   # Sample document for processing
+├── pages_and_chunks.json      # JSON file with preprocessed text chunks
+├── README.md                  # Project documentation
+├── requirements.txt           # Python dependencies
+├── utils.py                   # Utility functions
+```
+
 
 
 ## Links
