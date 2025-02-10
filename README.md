@@ -11,9 +11,8 @@ The user interface is implemented in HTML/CSS, with assets in the `templates/` a
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Folder Structure](#folder-structure)
-- [License](#license)
+- [Links](#links)
 
 ---
 
@@ -107,7 +106,33 @@ pip install -r requirements.txt
 2. **Access the Application**:
    - Open your browser and navigate to [http://127.0.0.1:5000](http://127.0.0.1:5000) to interact with the chatbot.
 
-# ChatBot Link
+---
+## Folder Structure
+
+```
+"chatbot-RAGapp/"
+├── Logo/                      # Directory for logos and images
+├── static/                    # Static assets (CSS, JS, images)
+│   ├── chatbot.png            # Chatbot logo
+│   ├── favicon.ico            # Favicon for the website
+│   ├── style.css              # Main stylesheet
+├── html/                      # Frontend HTML file
+│   ├── chat.html              # Main chat interface
+├── tests/                     # Unit tests
+│   ├── test_app.py            # Tests for the Flask app
+│   ├── test_utils.py          # Tests for utility functions
+├── app.py                     # Flask application entry point
+├── config.py                  # Configuration settings
+├── Dockerfile                 # Docker configuration
+├── embeddings.pt              # Embeddings file for model
+├── human-nutrition-text.pdf   # Sample document for processing
+├── pages_and_chunks.json      # JSON file with preprocessed text chunks
+├── README.md                  # Project documentation
+├── requirements.txt           # Python dependencies
+├── utils.py                   # Utility functions
+```
+
+# Links
 
 The RAG-Chatbot is constructed using the deepseek-r1-distill-qwen-7b:
 
