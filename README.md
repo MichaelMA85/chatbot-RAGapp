@@ -117,5 +117,5 @@ https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
 
 The Sentence Transformer Embedding-Model is constructed using the text-embedding-all-minilm-l6-v2-embedding:
 ```
-https://huggingface.co/jinaai/jina-embeddings-v2-base-en
+https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 ```
