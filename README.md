@@ -25,8 +25,8 @@ The user interface is implemented in HTML/CSS located in the `templates/` direct
 
 ### Prerequisites
 
-- **Python 3.9+** [Install Python] (https://www.python.org/downloads/)
-- **LM-Studio:**[LM-Studio](https://lmstudio.ai/) Ensure LM-Studio is running as a REST API.
+- **Python 3.9+:** [Install Python](https://www.python.org/downloads/)
+- **LM-Studio:** [LM-Studio](https://lmstudio.ai/) Ensure LM-Studio is running as a REST API.
 - **Git:** For version control.
 - **Docker:** (Optional) For containerized deployment.
 
@@ -44,11 +44,11 @@ cd chatbot-RAGapp
 python -m venv venv
 ```
 ### Activate the virtual environment:
-**On Linux/macOS:**
+***On Linux/macOS:***
 ```
 source venv/bin/activate
 ```
-**On Windows:**
+***On Windows:***
 ```
 venv/bin/activate
 ```
@@ -65,7 +65,7 @@ python app.py
 ```
 Open your browser and navigate to http://127.0.0.1:5000 to interact with the chatbot.
 
-# ChatBot Link
+## Links
 
 The RAG-Chatbot is constructed using the deepseek-r1-distill-qwen-7b.
 
