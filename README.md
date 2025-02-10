@@ -73,8 +73,8 @@ pip install -r requirements.txt
 
 2. **Load Models in LM-Studio**:
    - Open LM-Studio and load your models:
-     - **My Chat Model**: [`deepseek-r1-distill-qwen-7b`](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)
-     - **My Embedding Model**: [`jina-embeddings-v2-base-en`](https://huggingface.co/jinaai/jina-embeddings-v2-base-en)
+     - **my Chat Model**: [`deepseek-r1-distill-qwen-7b`](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)
+     - **my Embedding Model**: [`jina-embeddings-v2-base-en`](https://huggingface.co/jinaai/jina-embeddings-v2-base-en)
 
 3. **Enable REST API in LM-Studio**:
    - Go to **Developer Settings** in LM-Studio.
