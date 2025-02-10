@@ -44,10 +44,9 @@ The user interface is implemented in HTML/CSS, with assets in the `templates/` a
 git clone https://github.com/MichaelMA85/chatbot-RAGapp.git
 cd chatbot-RAGapp
 ```
-## 2. Set Up Virtual Environment
+### 2. Set Up Virtual Environment
 
-### Create a virtual environment (recommended):
-
+**Create a virtual environment (recommended):**
 ```
 python -m venv venv
 ```
@@ -61,12 +60,12 @@ source venv/bin/activate
 ```
 venv/bin/activate
 ```
-## 3. Install Dependencies
+### 3. Install Dependencies
 ```
 pip install -r requirements.txt
 ```
 
-## 4. Set Up LM-Studio
+### 4. Set Up LM-Studio
 
 1. **Install LM-Studio**:
    - Download and install LM-Studio from [LM-Studio](https://lmstudio.ai/).
