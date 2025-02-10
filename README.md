@@ -116,7 +116,7 @@ pip install -r requirements.txt
 │   ├── chatbot.png            # Chatbot logo
 │   ├── favicon.ico            # Favicon for the website
 │   ├── style.css              # Main stylesheet
-├── html/                      # Frontend HTML file
+├── templates/                 # Frontend HTML template file
 │   ├── chat.html              # Main chat interface
 ├── tests/                     # Unit tests
 │   ├── test_app.py            # Tests for the Flask app
