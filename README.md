@@ -72,8 +72,10 @@ pip install -r requirements.txt
 
 2. **Load Models in LM-Studio**:
    - Open LM-Studio and load your models:
-     - **my Chat Model**: [`deepseek-r1-distill-qwen-7b`](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)
-     - **my Embedding Model**: [`jina-embeddings-v2-base-en`](https://huggingface.co/jinaai/jina-embeddings-v2-base-en)
+     - **my Chat Model**: 
+     [`deepseek-r1-distill-qwen-7b`](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)
+     - **my Sentence Transformer Embedding-Model**: 
+     [`text-embedding-all-minilm-l6-v2-embedding`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
 
 3. **Enable REST API in LM-Studio**:
    - Go to **Developer Settings** in LM-Studio.
@@ -85,7 +87,7 @@ pip install -r requirements.txt
      LM_STUDIO_API_URL = "http://localhost:1234/v1/chat/completions"
      LM_STUDIO_EMBEDDING_API_URL = "http://localhost:1234/v1/embeddings"
      # Name must match LM-Studio's model
-     EMBEDDING_MODEL_NAME = "jina-embeddings"
+     EMBEDDING_MODEL_NAME = "text-embedding-all-minilm-l6-v2-embedding"
      CHAT_MODEL_NAME = "deepseek-r1-distill-qwen-7b"
      ```
  
@@ -107,13 +109,13 @@ pip install -r requirements.txt
 
 # ChatBot Link
 
-The RAG-Chatbot is constructed using the deepseek-r1-distill-qwen-7b.
+The RAG-Chatbot is constructed using the deepseek-r1-distill-qwen-7b:
 
 ```
 https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
 ```
-The Embedding-Model is constructed using the jina-embeddings
 
+The Sentence Transformer Embedding-Model is constructed using the text-embedding-all-minilm-l6-v2-embedding:
 ```
 https://huggingface.co/jinaai/jina-embeddings-v2-base-en
 ```

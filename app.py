@@ -107,11 +107,11 @@ def summarize_with_chat_model(text):
     payload = {
         "model": Config.CHAT_MODEL_NAME,
         "messages": [
-            {"role": "system", "content": "You are an expert in text understanding and summarization."},
+            {"role": "system", "content": "You are an expert in text comprehension and summarization."},
             {"role": "user", "content": f"Summarize the following text in your own words:\n\n{text}"}
         ],
         "temperature": 0.6,
-        "max_tokens": 600,  # Increase this value for more text in your summerization
+        "max_tokens": 500
     }
     
     response = requests.post(Config.LM_STUDIO_API_URL, json=payload)
