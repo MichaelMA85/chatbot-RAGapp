@@ -1,13 +1,14 @@
 # RAG-CHATBOT-APP
 
 A Retrieval-Augmented Generation (RAG) chatbot application built with Flask, leveraging LM-Studio's REST API for embeddings and model operations.  
-The user interface is implemented in HTML/CSS, with assets in the `templates/` and `static/` directories. Easily deployable via Docker.
+The user interface is implemented in HTML/CSS, with assets in the `templates/` and `static/` directories. Easily deployable via Docker (here is my docker configuration: [Dockerhub](https://hub.docker.com/repository/docker/michafein/ragchatapp/general)).
 
 ---
 
 ## Table of Contents
 
 - [Features](#features)
+- [Flowchart](#flowchart)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -23,6 +24,11 @@ The user interface is implemented in HTML/CSS, with assets in the `templates/` a
 - **LM-Studio Integration**: REST API for embeddings and model inference.
 - **Docker Support**: Containerized deployment.
 - **Testing**: Unit tests in the `tests/` directory.
+
+---
+
+## Flowchart
+![Workflow Overview of a RAG Chatbot App](images/rag_chart.png)
 
 ---
 
